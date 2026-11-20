@@ -23,9 +23,9 @@
 <main>
   <p><a href="./">← VultoClips Studio</a></p>
   <h1>Política de privacidade</h1>
-  <p class="data">Atualizada em 19 de novembro de 2026.</p>
+  <p class="data">Atualizada em 19 de novembro de 2026 (inclui o TikTok).</p>
 
-  <p>O VultoClips Studio é uma ferramenta pessoal do canal VultoClips. Ela roda só no computador do dono do canal e não é oferecida a outras pessoas. Esta página explica o que ela faz com os dados da conta do Google que o dono conecta.</p>
+  <p>O VultoClips Studio é uma ferramenta pessoal do canal VultoClips. Ela roda só no computador do dono do canal e não é oferecida a outras pessoas. Esta página explica o que ela faz com os dados da conta do Google e da conta do TikTok que o dono conecta.</p>
 
   <h2>Quais dados ela acessa</h2>
   <p>Com a autorização do dono, pela YouTube Data API (serviços da API do YouTube):</p>
@@ -33,17 +33,23 @@
     <li><strong>Envio de vídeos</strong> (permissão <code>youtube.upload</code>): manda para o canal os vídeos que o dono escolhe publicar, com título, descrição, etiquetas, privacidade, agendamento e miniatura.</li>
     <li><strong>Leitura do canal</strong> (permissão <code>youtube.readonly</code>): lê o nome e o identificador do canal conectado, só para mostrar na tela para qual canal o vídeo vai.</li>
   </ul>
-  <p>A ferramenta não lê, não altera e não apaga vídeos, comentários, inscritos, estatísticas ou qualquer outro dado do canal ou da conta.</p>
+  <p>Com a autorização do dono, pelas APIs do TikTok para desenvolvedores (Login Kit e Content Posting API):</p>
+  <ul>
+    <li><strong>Informações básicas</strong> (permissão <code>user.info.basic</code>): lê o nome de usuário da conta conectada, só para mostrar na tela para qual conta o vídeo vai.</li>
+    <li><strong>Envio de rascunhos</strong> (permissão <code>video.upload</code>): manda para a caixa de entrada do app do TikTok os cortes que o dono escolhe, para ele terminar a postagem no próprio app.</li>
+    <li><strong>Postagem direta</strong> (permissão <code>video.publish</code>, só se o dono ligar essa opção): posta o corte escolhido com a legenda e a privacidade que o dono definir.</li>
+  </ul>
+  <p>A ferramenta não lê, não altera e não apaga vídeos, comentários, inscritos, seguidores, estatísticas ou qualquer outro dado do canal ou das contas.</p>
 
   <h2>Onde os dados ficam</h2>
-  <p>A autorização do Google (o token de acesso) e o registro do que foi publicado ficam guardados só no computador do dono, em arquivos locais. Nada disso é enviado para servidores da ferramenta, porque ela não tem servidores: os únicos destinos são os próprios serviços do Google e do YouTube, no momento do envio.</p>
-  <p>Os dados obtidos pela API do YouTube não são vendidos, compartilhados com terceiros nem usados para publicidade, e não são usados para treinar modelos de inteligência artificial.</p>
+  <p>As autorizações do Google e do TikTok (os tokens de acesso) e o registro do que foi publicado ficam guardados só no computador do dono, em arquivos locais. Nada disso é enviado para servidores da ferramenta, porque ela não tem servidores: os únicos destinos são os próprios serviços do Google, do YouTube e do TikTok, no momento do envio.</p>
+  <p>Os dados obtidos pelas APIs do YouTube e do TikTok não são vendidos, compartilhados com terceiros nem usados para publicidade, e não são usados para treinar modelos de inteligência artificial.</p>
 
   <h2>Como tirar o acesso</h2>
-  <p>A qualquer momento o dono pode desconectar o canal na própria ferramenta (isso apaga a autorização guardada no computador) ou retirar o acesso na página de permissões da conta do Google: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+  <p>A qualquer momento o dono pode desconectar o canal na própria ferramenta (isso apaga a autorização guardada no computador) ou retirar o acesso na página de permissões da conta do Google: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. No TikTok, o mesmo vale: desconectar na ferramenta apaga a autorização guardada, e o acesso também pode ser retirado no app do TikTok, em Configurações e privacidade &gt; Segurança &gt; Apps e serviços.</p>
 
-  <h2>Google e YouTube</h2>
-  <p>Ao usar a ferramenta, valem também os <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a> e a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+  <h2>Google, YouTube e TikTok</h2>
+  <p>Ao usar a ferramenta, valem também os <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>, a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>, os <a href="https://www.tiktok.com/legal/terms-of-service">Termos de Serviço do TikTok</a> e a <a href="https://www.tiktok.com/legal/privacy-policy">Política de Privacidade do TikTok</a>.</p>
 
   <h2>Contato</h2>
   <p>Dúvidas sobre esta política: pelo canal <a href="https://www.youtube.com/@VultoClips">VultoClips</a> no YouTube.</p>
@@ -52,7 +58,7 @@
 
   <section id="en" lang="en">
     <h1>Privacy policy</h1>
-    <p class="data">Last updated November 19, 2026.</p>
+    <p class="data">Last updated November 19, 2026 (adds TikTok).</p>
     <p>VultoClips Studio is a personal tool of the VultoClips channel. It runs only on the channel owner's computer and is not offered to anyone else.</p>
     <h2>Data accessed</h2>
     <p>With the owner's authorization, through the YouTube Data API (YouTube API Services):</p>
@@ -60,13 +66,19 @@
       <li><strong>Video upload</strong> (<code>youtube.upload</code> scope): uploads the videos the owner chooses to publish, with title, description, tags, privacy setting, schedule and thumbnail.</li>
       <li><strong>Channel read</strong> (<code>youtube.readonly</code> scope): reads the connected channel's name and ID, only to show which channel the video will go to.</li>
     </ul>
-    <p>The tool does not read, change or delete videos, comments, subscribers, analytics or any other channel or account data.</p>
+    <p>With the owner's authorization, through TikTok for Developers (Login Kit and Content Posting API):</p>
+    <ul>
+      <li><strong>Basic info</strong> (<code>user.info.basic</code> scope): reads the connected account's username, only to show which account the video will go to.</li>
+      <li><strong>Draft upload</strong> (<code>video.upload</code> scope): sends the clips the owner chooses to the TikTok app inbox, where the owner finishes the post.</li>
+      <li><strong>Direct post</strong> (<code>video.publish</code> scope, only if the owner turns it on): posts the chosen clip with the caption and privacy setting the owner sets.</li>
+    </ul>
+    <p>The tool does not read, change or delete videos, comments, subscribers, followers, analytics or any other channel or account data.</p>
     <h2>Storage and sharing</h2>
-    <p>The Google authorization token and the log of published videos are stored only on the owner's computer, in local files. The tool has no servers; data is only sent to Google and YouTube services when a video is uploaded. Data obtained through the YouTube API is not sold, shared with third parties, used for advertising, or used to train AI models.</p>
+    <p>The Google and TikTok authorization tokens and the log of published videos are stored only on the owner's computer, in local files. The tool has no servers; data is only sent to Google, YouTube and TikTok services when a video is uploaded. Data obtained through the YouTube and TikTok APIs is not sold, shared with third parties, used for advertising, or used to train AI models.</p>
     <h2>Revoking access</h2>
-    <p>The owner can disconnect the channel inside the tool, which deletes the stored authorization, or revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
-    <h2>Google and YouTube</h2>
-    <p>Use of the tool is also subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <p>The owner can disconnect the channel inside the tool, which deletes the stored authorization, or revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. The same applies to TikTok: disconnecting in the tool deletes the stored authorization, and access can also be removed in the TikTok app under Settings and privacy &gt; Security &gt; Apps and services.</p>
+    <h2>Google, YouTube and TikTok</h2>
+    <p>Use of the tool is also subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, the <a href="https://www.tiktok.com/legal/terms-of-service">TikTok Terms of Service</a> and the <a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a>.</p>
     <h2>Contact</h2>
     <p>Through the <a href="https://www.youtube.com/@VultoClips">VultoClips</a> channel on YouTube.</p>
   </section>
